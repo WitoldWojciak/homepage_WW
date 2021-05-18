@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body__button {
+    margin: 0 auto;
+    display: block;
+    background-color: #d2e69c;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.dark {
+    background-color: rgb(37, 39, 37);
+}

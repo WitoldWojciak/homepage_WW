@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.section__orderedList {
+    list-style-position: inside;
+    padding-inline-start: 0px;
+    text-align: center;
+}
+
+.section__orderedListItem {
+    margin: 15px 0;
+}
+
+.section__unorderedList {
+    list-style-type: disc;
+    padding-inline-start: 0px;
+}

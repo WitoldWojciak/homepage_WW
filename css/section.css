@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.section__style {
+    max-width: 700px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    background-color: #8fd9a8;
+    box-shadow: 0px 0px 5px 0px #8fd9ac;
+}
+
+.section__header {
+    color: #000000;
+    text-align: center;
+    background-color: #d2e69c;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px 0px #d2e69c;
+}
+
+.section__photo {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 0px auto;
+    display: block;
+}
+
+.section__text {
+    text-align: center;
+}

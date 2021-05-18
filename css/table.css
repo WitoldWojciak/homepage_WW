@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.section__containerTable {
+    overflow-x: auto;
+}
+
+.section__table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.section__tableCaption {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.section__tableHeader {
+    background-color: #28b5b5;
+}
+
+.section__tableCell {
+    border: 1px solid black;
+    padding: 7px;
+    text-align: center;
+}
+
+.section__tableRow:hover {
+    background-color: #28b5b5;
+}

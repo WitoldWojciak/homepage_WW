@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.navigation__link, .footer__link, .section__tableCell--link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.navigation__link:focus, .footer__link:focus, .section__tableCell--link:focus {
+    outline: 2px solid currentColor;
+}
+
+.navigation__link:hover, .footer__link:hover, .section__tableCell--link:hover {
+    background-color: #d2e69c;
+    border-radius: 10px;
+}
+
+.navigation__link:active, .footer__link:active, .section__tableCell--link:active {
+    color: darkred;
+}
