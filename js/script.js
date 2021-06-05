@@ -1,12 +1,23 @@
-console.log("Cześć! Ciesze się, że sprawdzasz mój kod, daj znać jak coś nie zostało zrobione dobrze :)")
+{
+    const welcome = () => {
+        console.log("Cześć! Ciesze się, że sprawdzasz mój kod, daj znać jak coś nie zostało zrobione dobrze :)")
+    }
 
-let button = document.querySelector(".js-backgroundSwitcher");
-let body = document.querySelector(".body");
-let themeNameColor = document.querySelector(".body__themeNameColor");
+    welcome();
 
-button.addEventListener("click", () => {
-    body.classList.toggle("dark");
+    const toggleBackground = () => {
+        const body = document.querySelector(".body");
+        const themeNameColor = document.querySelector(".body__themeNameColor");
+        body.classList.toggle("dark");
+        themeNameColor.innerText = body.classList.contains("dark") ? "niebieskie" : "ciemne";
+    };
 
-    themeNameColor.innerText = body.classList.contains("dark") ? "niebieskie" : "ciemne";
-});
+    const init = () => {
+        const button = document.querySelector(".js-backgroundSwitcher");
+        button.addEventListener("click", toggleBackground);
+    };
+
+    init();
+}
+
 
