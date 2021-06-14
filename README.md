@@ -1,8 +1,12 @@
-# Witold Wójciak - moja strona
+# Homepage
+
+## Welcome
+
+Hi! My name is Witold Wójciak. I am learning new skills during the frontend course.
 
 ## Demo
 
-https://witoldwojciak.github.io/homepage_WW/
+One of my work you can find [here] (https://witoldwojciak.github.io/homepage_WW/).
 
 ## Opis
 
